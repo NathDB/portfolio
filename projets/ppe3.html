@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NDB - Portfolio BTS SIO</title>
+  <link rel="icon" href="../images/nathalieDB2.jpg">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../css/main.css">
+
+  <link href="@fortawesome/fontawesome-free/css/fontawesome.css" rel="stylesheet">
+  <link href="@fortawesome/fontawesome-free/css/brands.css" rel="stylesheet">
+  <link href="@fortawesome/fontawesome-free/css/solid.css" rel="stylesheet">
+
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+
+</head>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="../index.html">NDB - Portfolio</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" target="_blank" href="https://cv-nathalie.d-bonheur.fr/">CV<span class="sr-only"></span></a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projets</a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="../projets/ppe1.html">PPE1</a>
+          <a class="dropdown-item" href="../projets/ppe2.html">PPE2</a>
+          <a class="dropdown-item" href="../projets/ppe3.html">PPE3</a>
+          <a class="dropdown-item" href="../projets/ppe4.html">PPE4</a>
+          <a class="dropdown-item" href="../projets/projets.html">Tous mes projets</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Stages</a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="../stages/stage-b1.html">B1 - Première Année</a>
+          <a class="dropdown-item" href="../stages/stage-b2.html">B2 - Deuxième Année</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">BTS</a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="../bts/presentation.html">Présentation</a>
+          <a class="dropdown-item" href="../bts/competences.html">Compétences</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Veilles</a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="../veilles/veille_technologique.html">Veille Technologique</a>
+          <a class="dropdown-item" href="../veilles/veille_juridique.html">Veille Juridique</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../contact.html">Contact</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../twitter.html">Twitter</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<body>
+<div class="pageContent shadow-lg p-3 bg-white rounded">
+  <div class="fond d-flex flex-columns">
+    <h1 class="titre">PPE3 - Application lourde Ifrocean</h1>
+  </div>
+  <div class="d-flex pt-5" >
+    <div class="m-auto">
+      <a type="button" class="btn btn-outline-secondary m-3" href="#description">Description</a>
+      <a type="button" class="btn btn-outline-secondary m-3" href="#cdc">Cahier des charges</a>
+      <a type="button" class="btn btn-outline-secondary m-3" href="#bdd">Base de données</a>
+      <a type="button" class="btn btn-outline-secondary m-3" href="#documentation">Documentation technique</a>
+    </div>
+  </div>
+  <div class="card bloc">
+    <h3 class="border-bottom" id="description">Description</h3>
+    <div class="card-body">
+      IFROCEAN est une association permettant le recensement des espèces de la zone intertidale du littoral Nord-Ouest de la France sur les plages de sables.
+      Le réchauffement climatique rapide auquel sont exposées les espèces du littoral atlantique impacte fortement leur distribution.
+      Le but de cette étude est de recenser et quantifier à l’aide d’une solution applicative, les populations animales présentes sur l’estran des grandes plages de sable<br>
+      <br>La situation professionnelle a pour but de développer une application en back, permettant aux bénévoles et administrateurs d’utiliser le système de gestion et de recensement d’espèces.<br>
+      <br>IFROCEAN est une association exerçant une activité de recensement d’espèces des grandes plages de sable du littoral nord-ouest de la côte atlantique française. Afin d’améliorer la gestion des différents recensements et de centraliser les données, l’association souhaite faire évoluer et informatiser sa gestion. Les buts de ce développement sont les suivants :<br>
+      <ul>
+        <li class="li-custom">Informatiser le processus de gestion des recensements : les recensements étaient saisis manuscritement ;</li>
+        <li class="li-custom">Faciliter la saisie des données par les bénévoles ;</li>
+        <li class="li-custom">Sécuriser les données, en gardant trois types d’utilisateurs distincts : l’administrateur, le directeur de recherche et le bénévole.</li>
+      </ul>
+      <br>Suite à la demande de l’association IFROCEAN, le back-end de l’application doit être développé pour les fonctionnalités principales suivantes :
+      <ul>
+        <li class="li-number">Création des prélèvements/comptages des espèces</li>
+        <li class="li-number">Création, gestion des études</li>
+        <li class="li-number">Recherche/Consultation des études</li>
+        <li class="li-number">Consultation des plages et des équipes bénévoles</li>
+        <li class="li-number">Gestion des équipes par les directeurs de recherches</li>
+        <li class="li-number">Gestion des données de prélèvements par les directeurs de recherches et administrateur</li>
+      </ul>
+      <br>L'application est disponible sur mon compte GitHub -> <a></a><br>
+      <br>Compétences mises en oeuvres durant ce module :
+      <ul>
+        <li class="li-custom">A1.1.1 Analyse du cahier des charges d'un service à produire</li>
+        <li class="li-custom">A1.1.3 Etude des exigences liées à la qualité attendue d’un service</li>
+        <li class="li-custom">A4.1.1 Proposition d’une solution applicative</li>
+        <li class="li-custom">A4.1.3 Conception ou adaptation d'une base de données </li>
+        <li class="li-custom">A4.1.4 Définition des caractéristiques d’une solution applicative</li>
+        <li class="li-custom">A4.1.7 Développement, utilisation ou adaptation de composants logiciels</li>
+        <li class="li-custom">A4.1.9 Rédaction d'une documentation technique</li>
+      </ul>
+    </div>
+    <h3 class="border-bottom" id="cdc">Analyse du cahier des charges de l'application à réaliser</h3>
+    <div class="card-body">
+      Le cahier des charges donné a été analysé. Les contextes d'utilisation, les processus ont été recensé et caractérisé.
+      Les utilisateurs de l'application ont été identifiés. Après lecture et analyse du document, les diverses focntionnalités attendue ont été définies et listées.<br>
+      <br><a class="btn-large waves-effect waves-blue white" href="../files/cdcCSHARP.pdf#toolbar=0" data-toggle="tooltip" data-placement="right" title="Téléchargez mon CV en PDF">Cahier des charges de l'application à réaliser</li></a>
+    </div>
+    <h3 class="border-bottom" id="bdd">Conception de la base de données</h3>
+    <div class="card-body">
+      Après analyse complète du cahier des charges, il a fallu réaliser la base de données. J'ai réalisé un schéma UML de la base de données (avec l'outil Modélio).
+      La base de données a été réalisée sous MySQL. L'outil MySql Workbench, qui est un outil de gestion et d'administration de base de données, a été utilisé afin de réaliser le schéma relationnel de la base de données<br>
+    </div>
+    <h3 class="border-bottom" id="documentation">Réalisation de la documentation technique</h3>
+    <div class="card-body">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br>
+    </div>
+  </div>
+</div>
+</body>
+</html>

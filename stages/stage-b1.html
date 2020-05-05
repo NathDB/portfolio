@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NDB - Portfolio BTS SIO</title>
+  <link rel="icon" href="../images/nathalieDB2.jpg">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../css/main.css">
+
+  <link href="@fortawesome/fontawesome-free/css/fontawesome.css" rel="stylesheet">
+  <link href="@fortawesome/fontawesome-free/css/brands.css" rel="stylesheet">
+  <link href="@fortawesome/fontawesome-free/css/solid.css" rel="stylesheet">
+
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="../index.html">NDB - Portfolio</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" target="_blank" href="https://cv-nathalie.d-bonheur.fr/">CV<span class="sr-only"></span></a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="projets" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projets</a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="../projets/ppe1.html">PPE1</a>
+          <a class="dropdown-item" href="../projets/ppe2.html">PPE2</a>
+          <a class="dropdown-item" href="../projets/ppe3.html">PPE3</a>
+          <a class="dropdown-item" href="../projets/ppe4.html">PPE4</a>
+          <a class="dropdown-item" href="../projets/projets.html">Tous mes projets</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Stages</a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="../stages/stage-b1.html">B1 - Première Année</a>
+          <a class="dropdown-item" href="../stages/stage-b2.html">B2 - Deuxième Année</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">BTS</a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="../bts/presentation.html">Présentation</a>
+          <a class="dropdown-item" href="../bts/competences.html">Compétences</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Veilles</a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="../veilles/veille_technologique.html">Veille Technologique</a>
+          <a class="dropdown-item" href="../veilles/veille_juridique.html">Veille Juridique</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../contact.html">Contact</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../twitter.html">Twitter</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<body>
+<div class="pageContent shadow-lg p-3 bg-white rounded">
+  <div class="fondStage d-flex flex-columns">
+    <h1 class="titreStage">Stage de Première Année</h1>
+  </div>
+  <div class="d-flex pt-5" >
+    <div class="m-auto">
+      <a type="button" class="btn btn-outline-secondary m-3" href="#description">Description</a>
+      <a type="button" class="btn btn-outline-secondary m-3" href="#competences">Compétences développées</a>
+      <a type="button" class="btn btn-outline-secondary m-3" href="#rapport">Rapport d'activité</a>
+      <a type="button" class="btn btn-outline-secondary m-3" href="#presentation">Présentation orale</a>
+    </div>
+  </div>
+  <div class="card bloc">
+    <h3 class="border-bottom" id="description">Description</h3>
+    <div class="card-body media">
+      <img src="../images/obs.png" class="logo mr-3 w-25 p-3" alt="...">
+      <div class="media-body">
+        J'ai effectué mon stage de première année dans l'entreprise Orange Business Services (OBS), une filliale du groupe Orange.</br>
+        La mission confiée consistait en le développement d'une interface utilisateur afin d'intégrer un tchat.</br>
+        </br>Divers outils et langages ont été utilisés : ReactJS, HTMl/CSS, PHPStorm, Docker, Ubuntu, Trello,...</br>
+      </div>
+    </div>
+    <h3 class="border-bottom" id="competences">Compétences développées durant ce stage</h3>
+    <div class="card-body">
+      Toujours dans le cadre de mon BTS SIO Option SLAM, voici les compétences mises en oeuvres durant ce stage :<br>
+      <br><ul>
+      <li>A1.3.3 Accompagnement de la mise en place d'un nouveau service </li>
+      <li>A1.4.1 Participation à un projet </li>
+      <li>A4.1.1 Proposition d’une solution applicative</li>
+      <li>A4.1.2 Conception ou adaptation de l’interface utilisateur d’une solution applicative</li>
+      <li>A4.1.4 Définition des caractéristiques d'une solution applicative </li>
+      <li>A4.1.9 Rédaction d'une document technique</li>
+    </ul>
+    </div>
+    <h3 class="border-bottom" id="rapport">Rapport d'activité</h3>
+    <div class="card-body">
+      <div class="quote">
+        <div class="pl-3">"xdt,kop;leftgnhguhipkl"</div>
+      </div>
+      Vous pouvez accéder au rapport d'activité rédigé pour cette première expérience professionnelle :
+      <ul>
+        <li><a href="../files/rapportActiviteB1.pdf">Rapport d'activité</a></li>
+      </ul>
+      Vous retrouverez dans ce document la description de l'entreprise, les activités effectuées ainsi que les outils utilisés.
+    </div>
+    <h3 class="border-bottom mb-4" id="presentation">Présentation orale</h3>
+    <p>Ce stage a été présenté à un jury lors d'une soutenance orale. Voici le présentation donnée, elle comprend une vidéo de démonstration de l'application réalisée.</br></p>
+    <div class="card-body d-flex">
+      <iframe class="m-auto" src="https://ifagparis-my.sharepoint.com/personal/n_durassierbonheur_epsi_fr/_layouts/15/Doc.aspx?sourcedoc={3ed2bfe0-ca9b-4421-bc19-04e61f84d70d}&amp;action=embedview&amp;wdAr=1.7777777777777777&amp;wdEaa=0" width="962px" height="565px" frameborder="0">Ceci est un document
+        <a target="_blank" href="https://office.com">Microsoft Office</a> incorporé, avec <a target="_blank" href="https://office.com/webapps">Office</a>.
+      </iframe>
+    </div>
+
+  </div>
+</div>
+</body>
+</html>
