@@ -2,6 +2,7 @@ html {
     color: #222;
     font-size: 1em;
     line-height: 1.4;
+    overflow: hidden;
   }
   body {
     /*background-image: url("../public/images/fond.png");
@@ -22,7 +23,6 @@ html {
     align-items: center;
     overflow: hidden;
   }
-  
   .anime-circle {
     width: 30px;
     height: 30px;
@@ -31,7 +31,111 @@ html {
     border-radius: 50%;
   }
   .titre{
+    font-size:400%;
+    font-weight: 700;
+    z-index:4;
     font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    justify-content: flex-end;
+  }
+  .liens{
+    position:absolute;
+    padding: 8%;
     z-index:4;
   }
+  .text{
+    justify-content: flex-end;
+    margin-right: 5%;
+  }
+  .bouton-circle{
+    width:75px;
+    height:75px;
+    background-color: purple;
+    border-radius: 40%;
+    padding:8%;
+    margin-bottom:40%;
+    display:flex;
+    justify-content: space-around;
+  }
+  .fab, .fas{
+    color:white;
+    margin:auto;
+  }
+
+  .typed {
+    color:black !important;
+    font-size: 80%;
+  }
+  
+  .typed::after {
+    content: '|';
+    display: inline;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+  }
+  /*Removes cursor that comes with typed.js*/
+  .typed-cursor{
+    opacity: 0;
+    display: none;
+  }
+
+  /*TOOLTIPS*/
+  .tooltip {
+    position: relative;
+    display: inline-block;
+  }
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color:#C4C8CB;
+    color:white;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    top: -5px;
+    left: 105%;
+    position: absolute;
+    z-index: 1;   
+  }
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+
+  /*Custom cursor animation*/
+  @keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+  }
+  @-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+  }
+  @-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+  }
+
+
+  @media(max-width:1200px){
+    .wrapper{
+      margin:2% auto;
+    }
+    .titre{
+      font-size:300%;
+    }
+  }
+  @media(max-width:950px){
+    .wrapper{
+      margin:auto;
+    }
+    .titre{
+      font-size:150%;
+    }
+  }
+  
+
   
