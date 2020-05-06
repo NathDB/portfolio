@@ -12,6 +12,7 @@ html {
     font-family: 'Montserrat', sans-serif;
     flex-direction: column;
   }
+
   .wrapper {
     position: relative;
     background: white;
