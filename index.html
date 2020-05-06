@@ -21,6 +21,7 @@
   <!--Import Google Icon Font-->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
   <!--Let browser know website is optimized for mobile-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
@@ -43,11 +44,12 @@
 
 <body>
   <div class="liens">
-    <div class="bouton-circle" style="background-color: #8bdac4;"><i class="fas fa-file fa-3x"></i></div>
-    <div class="bouton-circle" style="background-color: #de8dce;" data-toggle="tooltip" data-placement="right" title="Tooltip on right"><i class="fab fa-github fa-3x"></i></div>
-    <div class="bouton-circle" style="background-color: #8d85e3;" data-toggle="tooltip" data-placement="right" title="Tooltip on right"><i class="fab fa-linkedin fa-3x"></i></div>
-    <div class="bouton-circle" style="background-color: #e2c785;" data-toggle="tooltip" data-placement="right" title="Tooltip on right"><i class="fas fa-book fa-3x"></i></div>
-    <div class="bouton-circle" style="background-color: #89c1e1;" data-toggle="tooltip" data-placement="right" title="Tooltip on right"><i class="fas fa-camera fa-3x"></i></div>
+    <a class="bouton-circle" style="background-color: #de8dce;" data-toggle="tooltip" data-placement="right" title="Envoyez-moi un mail !"><i class="fas fa-envelope"></i></a>
+    <a class="bouton-circle" style="background-color: #8bdac4;" data-toggle="tooltip" data-placement="right" title="CV : Regardez mon parcours !"><i class="fas fa-file-alt"></i></a>
+    <a class="bouton-circle" style="background-color: #e2c785;" data-toggle="tooltip" data-placement="right" title="Portfolio BTS SIO"><i class="fas fa-book"></i></a>
+    <a class="bouton-circle" style="background-color: #d885a6;" data-toggle="tooltip" data-placement="right" title="GitHub"><i class="fab fa-github"></i></a>
+    <a class="bouton-circle" style="background-color: #8d85e3;" data-toggle="tooltip" data-placement="right" title="Linkedin"><i class="fab fa-linkedin"></i></a>
+    <a class="bouton-circle" style="background-color: #89c1e1;" data-toggle="tooltip" data-placement="right" title="Twitter"><i class="fab fa-twitter"></i></a>
   </div>
    
   <div class="content d-flex">
@@ -63,6 +65,11 @@
     
 <script  type="text/javascript" src="script.js"></script>
 <script  type="text/javascript" src="script-text.js"></script>
+<script>
+  $(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+  })
+</script>
 </body>
 </html>
 

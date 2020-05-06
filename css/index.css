@@ -31,7 +31,7 @@ html {
     border-radius: 50%;
   }
   .titre{
-    font-size:400%;
+    font-size:350%;
     font-weight: 700;
     z-index:4;
     font-family: 'Montserrat', sans-serif;
@@ -50,7 +50,6 @@ html {
   .bouton-circle{
     width:75px;
     height:75px;
-    background-color: purple;
     border-radius: 40%;
     padding:8%;
     margin-bottom:40%;
@@ -60,6 +59,7 @@ html {
   .fab, .fas{
     color:white;
     margin:auto;
+    font-size: 3em;
   }
 
   .typed {
@@ -78,28 +78,6 @@ html {
   .typed-cursor{
     opacity: 0;
     display: none;
-  }
-
-  /*TOOLTIPS*/
-  .tooltip {
-    position: relative;
-    display: inline-block;
-  }
-  .tooltip .tooltiptext {
-    visibility: hidden;
-    width: 120px;
-    background-color:#C4C8CB;
-    color:white;
-    text-align: center;
-    padding: 5px 0;
-    border-radius: 6px;
-    top: -5px;
-    left: 105%;
-    position: absolute;
-    z-index: 1;   
-  }
-  .tooltip:hover .tooltiptext {
-    visibility: visible;
   }
 
   /*Custom cursor animation*/
@@ -122,18 +100,40 @@ html {
 
   @media(max-width:1200px){
     .wrapper{
-      margin:2% auto;
+      margin:5% auto;
+      width: 80%;
+      height: 80vh;
     }
     .titre{
-      font-size:300%;
+      font-size:250%;
     }
+    
+    
   }
   @media(max-width:950px){
     .wrapper{
-      margin:auto;
+      margin:5% auto;
     }
     .titre{
       font-size:150%;
+    }
+    .liens{
+      margin-top:10%;
+      padding:4%;
+    }
+    .bouton-circle{
+      width:60px;
+      height:60px;
+      padding:2%;
+      margin-bottom:10%;
+    }
+    .fab, .fas{
+      color:white;
+      margin:auto;
+      font-size: 2em;
+    }
+    .text{
+      margin-right:25%;
     }
   }
   
